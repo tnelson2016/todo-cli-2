@@ -1,0 +1,20 @@
+{
+  "name": "todo-cli-mrboogieknight",
+  "version": "0.2.0",
+  "description": "A handy app for devs to track to items witihin a project/repo. todos saved in a json entry point:(index.js) todo.js",
+  "main": "todo.js",
+  "bin": {
+    "todo": "bin/todo-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "troyN",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
